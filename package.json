@@ -1,16 +1,25 @@
 {
   "name": "11ty-portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "npx @11ty/eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch",
+    "build": "npx eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tbro4/devPortfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tbro4/devPortfolio/issues"
+  },
+  "homepage": "https://github.com/Tbro4/devPortfolio#readme",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
   }
 }
