@@ -17,8 +17,10 @@
     </head>
     <body>
         <div>
-            {% include "components/navbar.njk" %}
-                {{ content | safe }}
+             {% include "components/navbar.njk" %}
+                {% block content %} 
+                    {{ content | safe }}
+                {% endblock %}
             {% include "components/footer.njk" %}
         </div>
     </body>
