@@ -7,6 +7,10 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("src/projects/*.md");
   });
 
+  eleventyConfig.addShortcode("year", () => {
+    return `${new Date().getFullYear()}`;
+  });
+
   return {
     dir: {
       input: "src",
