@@ -23,5 +23,19 @@
                 {% endblock %}
             {% include "components/footer.njk" %}
         </div>
+{# Smooth scrolling, exclude projects #}
+   <script>
+    document.querySelectorAll('a.link').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            if (!this.classList.contains('no-scroll')) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+
     </body>
 </html>
