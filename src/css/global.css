@@ -59,7 +59,7 @@ li {
 }
 
 .cta-btn {
-  background-color: #ffcc1a;
+  background-color: #439cdb;
   color: #1d1e20;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -372,7 +372,7 @@ hr {
 
 .project-card .folder-icon {
   font-size: 35px;
-  color: #ffcc17;
+  color: #439cdb;
 }
 
 .project-header .small-icons {
@@ -387,7 +387,7 @@ hr {
 }
 
 .project-card .small-icons a:hover {
-  color: #ffcc17;
+  color: #439cdb;
 }
 
 .project-card .project h3 {
