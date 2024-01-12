@@ -1,23 +1,17 @@
 ---
 layout: layouts/project.njk
-title: Quotes Generator
-description: "Helps you generates quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards."
-gitHubURL: "https://github.com/olawanlejoel/random-quote-generator"
-image: "/assets/quotes-banner.jpeg"
+title: Plant People
+description: "An app that allows users to upload pictures of thier plants! Uses Handlebars and Sequelize."
+gitHubURL: "https://github.com/Tbro4/plant-people"
+image: "/assets/plantPeople.jpeg"
 ---
 
-The quotes generator project is a software tool designed to display random inspirational or thought-provoking quotes to users. This project aims to solve the problem of lack of motivation or inspiration by providing users with a quick and easy way to access inspiring quotes.
+Plant People is one of my first full-stack projects that simply allows users to create an account and upload pictures of their favorite plants.
 
 ### Technologies Used
 
-The technologies used in this project include HTML, CSS, and JavaScript. The application utilizes an API to fetch random quotes and display them to the user.
+Handlebars, Bootstrap, Sequelize, Express, Heroku (for deployment)
 
 ### Challenges and Lessons Learned
 
-One of the main challenges faced during this project was designing the user interface to be visually appealing and responsive on different devices. The team had to consider various design elements such as font sizes, colors, and layout to create a user-friendly and aesthetically pleasing interface.
-
-Another challenge was handling errors and edge cases such as network connectivity issues or invalid API responses. The team had to implement error handling and fallback mechanisms to ensure that the application would continue to function smoothly under various conditions.
-
-Throughout the project, the team learned valuable lessons about front-end development, such as the importance of clean and efficient code, effective debugging and troubleshooting, and responsive design principles. They also learned the importance of utilizing APIs to access and display data from external sources.
-
-Overall, the quotes generator project was a valuable learning experience that allowed the team to develop their technical and creative skills, and create a useful tool for users looking for daily inspiration or motivation.
+I thoroughly enjoyed working on this project, which provided an opportunity to delve into the functionalities of the Handlebars template library. My main focus was on crafting an eye-catching homepage featuring a straightforward login/signup mechanism. Additionally, I implemented a feature allowing users to effortlessly upload pictures from their computer files and assign them a title and description before posting. Throughout this process, I gained valuable insights into deploying a project with a database to Heroku.
